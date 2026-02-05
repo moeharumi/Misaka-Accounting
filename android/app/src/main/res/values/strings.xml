@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">御坂记账</string>
+    <string name="title_activity_main">御坂记账</string>
+    <string name="package_name">com.rainmoe.misaka_ledger</string>
+    <string name="custom_url_scheme">com.rainmoe.misaka_ledger</string>
+</resources>

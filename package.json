@@ -1,0 +1,65 @@
+{
+    "name": "minimal-ledger",
+    "version": "0.1.0",
+    "private": true,
+    "main": "electron/main.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "build:web": "next build",
+        "dev:app": "concurrently -n WEB,ELEC -c blue,magenta \"next dev\" \"wait-on http://localhost:3000 && electron .\"",
+        "dist": "npm run build:web && electron-builder -w",
+        "export": "next export",
+        "android:init": "npx cap add android",
+        "android:sync": "npm run build && npm run export && npx cap sync android",
+        "android:open": "npx cap open android"
+    },
+    "dependencies": {
+        "next": "14.2.5",
+        "react": "18.3.1",
+        "react-dom": "18.3.1",
+        "lucide-react": "0.465.0",
+        "clsx": "2.1.1",
+        "tailwind-merge": "2.3.0"
+    },
+    "devDependencies": {
+        "autoprefixer": "10.4.19",
+        "postcss": "8.4.35",
+        "tailwindcss": "3.4.3",
+        "tailwindcss-animate": "1.0.7",
+        "typescript": "5.6.2",
+        "@types/react": "18.3.12",
+        "@types/node": "20.11.30",
+        "eslint": "8.57.0",
+        "eslint-config-next": "14.2.5",
+        "electron": "31.0.2",
+        "electron-builder": "24.9.3",
+        "concurrently": "8.2.2",
+        "wait-on": "7.2.0",
+        "@capacitor/core": "6.2.0",
+        "@capacitor/cli": "6.2.0",
+        "@capacitor/android": "6.2.0"
+    },
+    "build": {
+        "appId": "com.rainmoe.misaka-ledger",
+        "productName": "御坂记账",
+        "files": [
+            ".next/**",
+            "next.config.mjs",
+            "package.json",
+            "public/**",
+            "node_modules/**",
+            "electron/**"
+        ],
+        "win": {
+            "target": "nsis",
+            "artifactName": "MisakaLedger-Setup-${version}.exe"
+        },
+        "nsis": {
+            "oneClick": false,
+            "allowToChangeInstallationDirectory": true
+        }
+    }
+}
