@@ -36,26 +36,7 @@
 - TypeScript
 - Tailwind CSS（含 `tailwindcss-animate`）
 - Lucide React 图标
-
-**项目结构与关键代码**
-- 页面与交互入口：[app/page.tsx](file:///d:/jizhang/jiazhang/app/page.tsx)
-- 全局布局与样式：[app/layout.tsx](file:///d:/jizhang/jiazhang/app/layout.tsx), [app/globals.css](file:///d:/jizhang/jiazhang/app/globals.css)
-- UI 组件：按钮、输入、选择、卡片、文本域  
-  [components/ui/button.tsx](file:///d:/jizhang/jiazhang/components/ui/button.tsx)  
-  [components/ui/input.tsx](file:///d:/jizhang/jiazhang/components/ui/input.tsx)  
-  [components/ui/select.tsx](file:///d:/jizhang/jiazhang/components/ui/select.tsx)  
-  [components/ui/card.tsx](file:///d:/jizhang/jiazhang/components/ui/card.tsx)  
-  [components/ui/textarea.tsx](file:///d:/jizhang/jiazhang/components/ui/textarea.tsx)
-- 工具与类型：  
-  自然语言解析：[lib/parse.ts](file:///d:/jizhang/jiazhang/lib/parse.ts)  
-  本地存储：[lib/storage.ts](file:///d:/jizhang/jiazhang/lib/storage.ts)  
-  Tailwind 工具函数：[lib/utils.ts](file:///d:/jizhang/jiazhang/lib/utils.ts)  
-  账单类型：[types/bill.ts](file:///d:/jizhang/jiazhang/types/bill.ts)
-- 配置文件：  
-  Tailwind：[tailwind.config.ts](file:///d:/jizhang/jiazhang/tailwind.config.ts)  
-  PostCSS：[postcss.config.js](file:///d:/jizhang/jiazhang/postcss.config.js)  
-  Next 配置：[next.config.mjs](file:///d:/jizhang/jiazhang/next.config.mjs)
-
+ 
 **使用指南**
 - 记一笔：在输入框输入自然语言，按 Enter 或点“保存”
 - 改分类：输入框左侧选择器改为指定分类
