@@ -15,5 +15,3 @@ android/app/build/
 android/build/
 
 # Screenshots (commit selectively)
-public/screenshots/*.png
-public/screenshots/*.jpg
