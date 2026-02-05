@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Stars](https://img.shields.io/github/stars/moeharumi/misaka-ledger?style=social)
 
-一个极简、好看的 Web 记账应用。支持自然语言输入、分类筛选、预算提醒、导出/导入、二次元自适应背景等，专注轻量与易用。
+一个极简、好看的记账应用。支持自然语言输入、分类筛选、预算提醒、导出/导入、二次元自适应背景等，专注轻量与易用。
 
 **预览与运行**
 - 本地开发：`npm install && npm run dev`
