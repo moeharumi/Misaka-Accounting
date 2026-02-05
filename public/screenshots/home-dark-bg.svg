@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800">
+  <defs>
+    <linearGradient id="overlay" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="rgba(17,24,39,0.60)"/>
+      <stop offset="100%" stop-color="rgba(17,24,39,0.70)"/>
+    </linearGradient>
+    <pattern id="acg" patternUnits="userSpaceOnUse" width="1280" height="800">
+      <image href="https://www.loliapi.com/acg/?t=demo-dark" x="0" y="0" width="1280" height="800"/>
+    </pattern>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#acg)"/>
+  <rect width="100%" height="100%" fill="url(#overlay)"/>
+
+  <rect x="80" y="60" width="1120" height="60" rx="12" fill="#1f2937" stroke="#374151"/>
+  <text x="100" y="98" font-size="22" font-family="Inter, Arial" fill="#e5e7eb">御坂记账 · 演示（深色 + ACG）</text>
+  <text x="990" y="98" font-size="14" font-family="Inter, Arial" fill="#9ca3af">导出 · 导入 · 换背景 · 主题</text>
+
+  <rect x="80" y="140" width="540" height="120" rx="12" fill="#1f2937" stroke="#374151"/>
+  <text x="100" y="170" font-size="12" font-family="Inter, Arial" fill="#9ca3af">本月总支出</text>
+  <text x="100" y="210" font-size="28" font-family="Inter, Arial" fill="#f9fafb">￥1,245.00</text>
+
+  <rect x="660" y="140" width="540" height="120" rx="12" fill="#1f2937" stroke="#374151"/>
+  <text x="680" y="170" font-size="12" font-family="Inter, Arial" fill="#9ca3af">剩余预算</text>
+  <text x="680" y="210" font-size="28" font-family="Inter, Arial" fill="#f9fafb">￥755.00</text>
+
+  <rect x="80" y="290" width="1120" height="60" rx="12" fill="#1f2937" stroke="#374151"/>
+  <text x="100" y="328" font-size="14" font-family="Inter, Arial" fill="#e5e7eb">分类 · 输入：中午吃面25元 · 保存</text>
+
+  <text x="80" y="380" font-size="14" font-family="Inter, Arial" fill="#9ca3af">最近账单</text>
+  <rect x="80" y="400" width="1120" height="70" rx="12" fill="#1f2937" stroke="#374151"/>
+  <circle cx="110" cy="435" r="20" fill="#374151"/>
+  <text x="150" y="430" font-size="14" font-family="Inter, Arial" fill="#e5e7eb">餐饮 · 中午吃面</text>
+  <text x="150" y="452" font-size="12" font-family="Inter, Arial" fill="#9ca3af">2026-02-06</text>
+  <text x="1120" y="430" font-size="16" font-family="Inter, Arial" fill="#f9fafb" text-anchor="end">￥25.00</text>
+</svg>

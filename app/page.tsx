@@ -213,7 +213,7 @@ export default function Page() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url(https://acg.yaohud.cn/dm/adaptive.php?t=${bgSeed})`
+            backgroundImage: `url(https://www.loliapi.com/acg/?t=${bgSeed})`
           }}
         />
         <div className="absolute inset-0 bg-background/60 backdrop-blur-sm" />

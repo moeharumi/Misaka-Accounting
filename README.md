@@ -26,10 +26,12 @@
 
 **Screenshots**
 - 轻配风格与暗色模式
+  ![Light](public/screenshots/home-light.svg)
+  ![Dark](public/screenshots/home-dark.svg)
   
-  ![Light](public/screenshots/home-light.png)
-  
-  ![Dark](public/screenshots/home-dark.png)
+- ACG 背景示例
+  ![Light + ACG](public/screenshots/home-light-bg.svg)
+  ![Dark + ACG](public/screenshots/home-dark-bg.svg)
 
 **技术栈**
 - Next.js（App Router）
@@ -72,7 +74,7 @@
 - 无后端、无云存储，数据仅保存在本地设备
 
 **背景 API**
-- 设备自适应随机背景：`https://acg.yaohud.cn/dm/adaptive.php`
+- 设备自适应随机背景：`https://www.loliapi.com/acg/`
 - 为避免缓存，请求中附带时间戳参数
 
 **命令**
