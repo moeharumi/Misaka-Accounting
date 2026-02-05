@@ -26,8 +26,8 @@
 
 **Screenshots**
 - ACG 背景示例（保留两张）
-  ![Light + ACG](public/screenshots/home-light-bg.svg)
-  ![Dark + ACG](public/screenshots/home-dark-bg.svg)
+  ![Light + ACG](public/screenshots/home-light.png)
+  ![Dark + ACG](public/screenshots/home-night.png)
 
 **技术栈**
 - Next.js（App Router）
