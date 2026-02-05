@@ -25,11 +25,7 @@
 - 二次元背景：设备自适应随机背景，可一键换图，叠加半透明与模糊提升可读性
 
 **Screenshots**
-- 轻配风格与暗色模式
-  ![Light](public/screenshots/home-light.svg)
-  ![Dark](public/screenshots/home-dark.svg)
-  
-- ACG 背景示例
+- ACG 背景示例（保留两张）
   ![Light + ACG](public/screenshots/home-light-bg.svg)
   ![Dark + ACG](public/screenshots/home-dark-bg.svg)
 
