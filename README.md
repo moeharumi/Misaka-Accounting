@@ -71,12 +71,6 @@ npm run dev
   - 环境变量：默认无需配置（使用浏览器 LocalStorage）
   - 注意：不包含 Windows 桌面打包内容，避免仓库体积增大
 
-**Roadmap**
-- 周视图与更多图表
-- 多币种与汇率
-- 更丰富的分类与图标
-- 可选云同步（保持默认离线）
-
 **作者**
 - RainMoe · GitHub: https://github.com/moeharumi
 
