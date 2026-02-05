@@ -25,9 +25,11 @@
 - 二次元背景：设备自适应随机背景，可一键换图，叠加半透明与模糊提升可读性
 
 **Screenshots**
-- ACG 背景示例（保留两张）
-  ![Light + ACG](public/screenshots/home-light.png)
-  ![Dark + ACG](public/screenshots/home-night.png)
+- 并列预览（缩小显示）
+  <p align="center">
+    <img src="public/screenshots/home-light.png" alt="Light" width="45%" />
+    <img src="public/screenshots/home-night.png" alt="Dark" width="45%" />
+  </p>
 
 **技术栈**
 - Next.js（App Router）
