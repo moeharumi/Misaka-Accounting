@@ -6,7 +6,12 @@ const categoryKeywords: Record<CategoryKey, string[]> = {
     购物: ["买", "购物", "京东", "淘宝", "拼多多", "衣服", "鞋"],
     娱乐: ["电影", "游戏", "会员", "KTV", "娱乐", "音乐"],
     居家: ["家", "水电", "燃气", "超市", "日用品", "物业", "维修"],
-    其他: ["其他", "杂项", "未知"]
+    其他: ["其他", "杂项", "未知"],
+    工资: ["工资", "薪资", "薪水"],
+    奖金: ["奖金", "年终奖", "绩效", "补贴"],
+    理财: ["理财", "分红", "利息", "基金", "股票"],
+    其他收入: ["收入", "转入", "进账"],
+    转账: []
 };
 
 function detectCategory(text: string): CategoryKey {
@@ -31,7 +36,9 @@ function extractAmount(text: string): number | null {
     return Number.isFinite(n) ? Math.round(n * 100) / 100 : null;
 }
 
-export function parseToBill(input: string): Omit<Bill, "id"> | null {
+export function parseToBill(
+    input: string
+): Omit<Bill, "id" | "type" | "accountId" | "toAccountId"> | null {
     const amount = extractAmount(input);
     if (amount === null) return null;
     const category = detectCategory(input);

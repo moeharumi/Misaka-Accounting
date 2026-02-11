@@ -4,7 +4,14 @@ export type CategoryKey =
   | "购物"
   | "娱乐"
   | "居家"
-  | "其他";
+  | "其他"
+  | "工资"
+  | "奖金"
+  | "理财"
+  | "其他收入"
+  | "转账";
+
+export type BillType = "expense" | "income" | "transfer";
 
 export interface Bill {
   id: string;
@@ -12,4 +19,7 @@ export interface Bill {
   category: CategoryKey;
   note: string;
   date: string; // ISO date string
+  type: BillType;
+  accountId: string;
+  toAccountId?: string;
 }
